@@ -15,7 +15,7 @@ st.write('Enter the input features below to predict air quality.')
 # Sidebar with project information
 st.sidebar.title('Project Information')
 st.sidebar.subheader('Project description and Data Visualizations ')
-st.sidebar.write('Air pollution is a growing concern in urban areas, with adverse effects on public health and the environment. Developing an air quality monitoring and pollution prediction system using machine learning can help raise awareness, inform policy decisions, and enable citizens to take protective measures.')
+st.sidebar.write('Air pollution is a growing concern in urban areas, with adverse effects on public health and the environment. Developing an air quality and pollution prediction system using machine learning can help raise awareness, inform policy decisions, and enable citizens to take protective measures.')
 # Load the raw data
 raw_data = pd.read_csv('cleaned_data.csv')
 # Checkbox for displaying raw data
